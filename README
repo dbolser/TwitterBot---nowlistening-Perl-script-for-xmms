@@ -1,0 +1,14 @@
+Demonstrating OAuth for a twitter tool in Perl.
+
+
+See:
+
+https://dev.twitter.com/docs/auth
+https://dev.twitter.com/docs/auth#oob
+https://dev.twitter.com/docs/auth/oauth/faq
+
+http://search.cpan.org/perldoc?Net::Twitter
+http://search.cpan.org/perldoc?Net::Twitter::Role::OAuth
+
+
+
