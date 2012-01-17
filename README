@@ -10,5 +10,24 @@ https://dev.twitter.com/docs/auth/oauth/faq
 http://search.cpan.org/perldoc?Net::Twitter
 http://search.cpan.org/perldoc?Net::Twitter::Role::OAuth
 
+# Another example script (which is packaged with a valid consumer_key
+# and consumer_secret):
+http://cpansearch.perl.org/src/MMIMS/Net-Twitter-3.18001/examples/oauth_desktop.pl
+
+
+
+PROBLEMS:
+
+You need to register the script with twitter to get the consumer_key
+and consumer_secret for your copy of the app (Twitter don't like you
+to make them 'public').
+
+If you get the following error while trying to authenticate as a user:
+
+    GET https://api.twitter.com/oauth/request_token failed: 500 read failed:  at ./twitter.pl line 44
+
+
+you may need to update LWP::Protocol::https
+
 
 
